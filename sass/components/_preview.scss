@@ -1,0 +1,14 @@
+.preview {
+    background-image: url(../../img/background/garrett-parker-DlkF4-dbCOU-unsplash\ 1.jpg);
+    background-repeat: no-repeat;
+    background-color: #cccccc;
+    background-position: center;
+    background-size: cover; 
+    height: 500px;
+}
+.preview__wrapper {
+    display: flex;
+    width: 892px;
+    height: 389px;
+    flex-direction: column;
+}

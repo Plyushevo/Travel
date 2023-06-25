@@ -1,4 +1,10 @@
 @import "abstract/constant";
 @import "base/base";
-@import "layouts/wrapper"
+@import "base/buttons";
+
+//layouts
+@import "layouts/wrapper";
+@import "layouts/header";
+
 // @import "components/"
+@import "components/preview";
