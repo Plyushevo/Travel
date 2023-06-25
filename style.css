@@ -1,0 +1,14 @@
+html {
+    font-size: 10px;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: 'Aleo', sans-serif;
+    margin: 0;
+}
+
+
+.header {
+    background-image: url(img/background/garrett-parker-DlkF4-dbCOU-unsplash\ 1.jpg);
+}
