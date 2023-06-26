@@ -1,14 +1,63 @@
 .preview {
-    background-image: url(../../img/background/garrett-parker-DlkF4-dbCOU-unsplash\ 1.jpg);
+    background-image: url(../img/background/garrett-parker-DlkF4-dbCOU-unsplash\ 1.jpg);
     background-repeat: no-repeat;
-    background-color: #cccccc;
     background-position: center;
     background-size: cover; 
-    height: 500px;
+    height: 765px;
+
 }
-.preview__wrapper {
+.preview__content {
     display: flex;
     width: 892px;
     height: 389px;
+    // box-sizing: border-box;
     flex-direction: column;
+    margin: 0;
+    margin-top: 32px;
 }
+
+.preview__paragraph {
+    color: $color-button-text;
+    font-size: 2rem;
+    margin: auto 0;
+}
+
+.preview__search-form {
+    display: flex;
+    box-sizing: border-box;
+    height: 95px;
+}
+
+.preview__search-form>button {
+    margin: auto;
+    height: 59px;
+    width: 228px;
+    margin-left: -246px;
+    font-size: 2.4rem;
+}
+
+.preview__search-form>input {
+    flex-grow: 1;
+    box-sizing: border-box;
+    // margin: -18px -190px -18px 0;
+    // margin-right: -190px;
+}
+
+.preview__search-form_field {
+    border-radius: 16px;
+    background: rgba(255, 255, 255, 0.70);
+    border: none;
+    box-sizing: border-box;
+    padding: 32px;
+    max-width: 892px;
+    height: 95px;
+    // flex-shrink: 0;
+}
+
+.preview__search-form_field::placeholder, .preview__search-form_field  {
+    color: $color-primary;
+    font-size: 2.4rem;
+    font-style: italic;
+    padding-right: 41px;
+}
+

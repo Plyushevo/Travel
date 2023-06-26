@@ -11,6 +11,8 @@ body {
 h1 {
   font-size: 8rem;
   font-weight: 700;
+  color: #FFF;
+  margin: 0;
 }
 
 h2 {
@@ -21,10 +23,6 @@ h2 {
 
 h3 {
   font-size: 3.5rem;
-}
-
-.header {
-  background-image: url(img/background/garrett-parker-DlkF4-dbCOU-unsplash\ 1.jpg);
 }
 
 .button_colored {
@@ -56,13 +54,14 @@ h3 {
 .header {
   background: rgba(242, 120, 92, 0.7);
   box-shadow: 0px 4px 4px 0px rgba(13, 96, 111, 0.5);
-  padding: 25px 0 24px 0;
+  box-sizing: border-box;
 }
 
 .header__wrapper {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  height: 90px;
 }
 
 .navigation {
@@ -71,28 +70,72 @@ h3 {
   font-family: "Red Hat Text";
   font-weight: 500;
   color: #FFF;
+  padding: 0;
 }
 
 .navigation__link {
   list-style: none;
-  padding: 0 21px;
+  padding-right: 20px;
   cursor: pointer;
 }
 
 .preview {
-  background-image: url(../../img/background/garrett-parker-DlkF4-dbCOU-unsplash\ 1.jpg);
+  background-image: url(../img/background/garrett-parker-DlkF4-dbCOU-unsplash\ 1.jpg);
   background-repeat: no-repeat;
-  background-color: #cccccc;
   background-position: center;
   background-size: cover;
-  height: 500px;
+  height: 765px;
 }
 
-.preview__wrapper {
+.preview__content {
   display: flex;
   width: 892px;
   height: 389px;
   flex-direction: column;
+  margin: 0;
+  margin-top: 32px;
+}
+
+.preview__paragraph {
+  color: #FFF;
+  font-size: 2rem;
+  margin: auto 0;
+}
+
+.preview__search-form {
+  display: flex;
+  box-sizing: border-box;
+  height: 95px;
+}
+
+.preview__search-form > button {
+  margin: auto;
+  height: 59px;
+  width: 228px;
+  margin-left: -246px;
+  font-size: 2.4rem;
+}
+
+.preview__search-form > input {
+  flex-grow: 1;
+  box-sizing: border-box;
+}
+
+.preview__search-form_field {
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 0.7);
+  border: none;
+  box-sizing: border-box;
+  padding: 32px;
+  max-width: 892px;
+  height: 95px;
+}
+
+.preview__search-form_field::placeholder, .preview__search-form_field {
+  color: #F2785C;
+  font-size: 2.4rem;
+  font-style: italic;
+  padding-right: 41px;
 }
 
 /*# sourceMappingURL=style.css.map */

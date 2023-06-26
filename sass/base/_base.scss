@@ -11,6 +11,8 @@ body {
 h1 {
     font-size: 8rem;
     font-weight: 700;
+    color: $color-button-text;
+    margin: 0;
 }
 
 h2 {
@@ -23,6 +25,3 @@ h3 {
     font-size: 3.5rem;
 }
 
-.header {
-    background-image: url(img/background/garrett-parker-DlkF4-dbCOU-unsplash\ 1.jpg);
-}
